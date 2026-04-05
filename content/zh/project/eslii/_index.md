@@ -11,9 +11,10 @@ weight: 1
 
 
 cascade:
-  math: true
   type: book
-  authors: ["Butters"]
+  params:
+    math: true
+    authors: ["Butters"]
   tags: ["2018"]
   categories: ["统计学习基础（译注）"]
 
